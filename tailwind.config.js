@@ -8,9 +8,6 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: {
-          DEFAULT: '48px',
-        },
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
@@ -18,6 +15,9 @@ export default {
       colors: {
         primary: '#1677BD',
         darkGray: '#1E1E1E'
+      },
+      fontSize: {
+        '3xl': '32px',
       }
     },
   },

@@ -5,8 +5,8 @@ import { LuSearch } from "react-icons/lu";
 
 const Header = () => {
     return (
-        <section className=" border-b border-[#DCDCDC]">
-            <div className="container flex justify-between items-center gap-4 pt-[46px] pb-[23px]">
+        <section className="border-b border-[#DCDCDC] px-6 xl:px-0">
+            <div className="container max-w-[1440px] flex justify-between items-center gap-4 pt-[46px] pb-[23px]">
                 {/* logo */}
                 <NavLink to="/">
                     <img src="/logo.svg" alt="logo" className="max-w-[166px] object-contain" />
