@@ -1,9 +1,21 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Header from "./component/Header.jsx";
+import Home from "./homePage/Home.jsx";
+import Navbar from "./component/Navbar.jsx";
+
 function App() {
-  return (
-    <main>
-        <h2 className="text-4xl text-center hover:underline">Hello World</h2>
-    </main>
-  )
+    return (
+        <main className="font-roboto">
+            <BrowserRouter>
+                <Header />
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                </Routes>
+            </BrowserRouter>
+        </main>
+    )
 }
 
 export default App
