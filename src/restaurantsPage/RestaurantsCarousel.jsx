@@ -34,7 +34,7 @@ const RestaurantsCarousel = () => {
                     </button>
 
                     {/* slider */}
-                    <div className="flex flex-wrap justify-between items-center gap-8">
+                    <div className="w-full grid grid-cols-4 justify-between items-center gap-8">
                         {CarouselData[currentIndex].cards.map((card, i) => (
                             <Card key={i} {...card} />
                         ))}
