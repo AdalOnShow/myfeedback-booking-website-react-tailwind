@@ -190,3 +190,72 @@ export const latestCardData = [
         images: ["card-image-16.png", "card-image-10.png", "card-image-7.png", "card-image-8.png"],
     },
 ]
+export const testimonialData = [
+    {
+        userName: "Leslie sakho",
+        userImage: "/avatar.svg",
+        country: "Canada, toronto",
+        stars: ["full", "full", "full", "full", "full"],
+        date: "09/11/2023",
+        reviewText1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        reviewText2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        images: ["testimonial-1", "testimonial-2", "testimonial-3"],
+        discoverLink: "#"
+    },
+    {
+        userName: "Chris macari",
+        userImage: "/avatar.svg",
+        country: "Singapour",
+        stars: ["full", "full", "full", "full", "full"],
+        date: "09/11/2023",
+        reviewText1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        reviewText2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        images: ["testimonial-4", "testimonial-5", "testimonial-6"],
+        discoverLink: "#"
+    },
+    {
+        userName: "Jojo alba",
+        userImage: "/avatar.svg",
+        country: "Kuala lumpur",
+        stars: ["full", "full", "full", "full", "full"],
+        date: "09/11/2023",
+        reviewText1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        reviewText2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        images: ["testimonial-7", "testimonial-8", "testimonial-9"],
+        discoverLink: "#"
+    },
+    {
+        userName: "Leslie sakho",
+        userImage: "/avatar.svg",
+        country: "Canada, toronto",
+        stars: ["full", "full", "full", "full", "full"],
+        date: "09/11/2023",
+        reviewText1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        reviewText2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        images: ["testimonial-1", "testimonial-2", "testimonial-3"],
+        discoverLink: "#"
+    },
+    {
+        userName: "Chris macari",
+        userImage: "/avatar.svg",
+        country: "Singapour",
+        stars: ["full", "full", "full", "full", "full"],
+        date: "09/11/2023",
+        reviewText1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        reviewText2: "The lorem ipsum is, in printing.",
+        images: ["testimonial-4", "testimonial-5", "testimonial-6"],
+        discoverLink: "#"
+    },
+    {
+        userName: "Jojo alba",
+
+        userImage: "/avatar.svg", country: "Kuala lumpur",
+        stars: ["full", "full", "full", "full", "full"],
+        date: "09/11/2023",
+        reviewText1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        reviewText2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        images: ["testimonial-7", "testimonial-8", "testimonial-9"],
+        discoverLink: "#"
+    },
+
+]

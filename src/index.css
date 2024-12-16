@@ -11,5 +11,5 @@
 }
 
 .carousel-button {
-  @apply top-1/2 transform -translate-y-1/2 hidden md:flex bg-white size-[60px] flex-center rounded-full p-4 disabled:bg-white/60 disabled:cursor-not-allowed z-10;
+  @apply top-1/2 transform -translate-y-1/2 hidden md:flex bg-white size-[60px] flex-center rounded-full p-4 disabled:cursor-not-allowed z-10 shadow-xl;
 }

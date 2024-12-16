@@ -1,6 +1,7 @@
 import RestaurantsCarousel from "./RestaurantsCarousel.jsx";
 import LatestTrends from "./LatestTrends.jsx";
 import Explore from "./Explore.jsx";
+import Testimonial from "./Testimonial.jsx";
 
 const RestaurantsPage = () => {
     return (
@@ -8,6 +9,7 @@ const RestaurantsPage = () => {
             <RestaurantsCarousel />
             <LatestTrends />
             <Explore />
+            <Testimonial />
         </main>
     )
 }

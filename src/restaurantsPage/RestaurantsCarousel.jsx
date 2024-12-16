@@ -28,7 +28,7 @@ const RestaurantsCarousel = () => {
                     <button
                         onClick={handlePrev}
                         disabled={currentIndex === 0 && true}
-                        className="absolute -left-8 carousel-button"
+                        className="absolute -left-8 disabled:bg-white/60 carousel-button"
                     >
                         <FaArrowLeft size={45} />
                     </button>
@@ -44,7 +44,7 @@ const RestaurantsCarousel = () => {
                     <button
                         onClick={handleNext}
                         disabled={currentIndex === CarouselData.length - 1 && true}
-                        className="absolute -right-8 carousel-button"
+                        className="absolute -right-8 disabled:bg-white/60 carousel-button"
                     >
                         <FaArrowRight size={45} />
                     </button>
