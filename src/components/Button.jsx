@@ -3,8 +3,8 @@ const Button = ({ children, variant, className }) => {
     return (
         <button
             className={`
-            px-7 py-[14px] rounded-full
-            ${variant === 'primary' ? 'bg-primary text-white' : 'bg-darkGray text-white'}
+            py-[14px] rounded-full
+            ${variant === 'primary' ? 'bg-primary text-white px-10' : 'bg-darkGray text-white px-7'}
             ${className}
             `}
         >
