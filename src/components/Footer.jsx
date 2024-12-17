@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="py-7 border-t border-[#DCDCDC]">
-            <div className="container max-w-[1440px] flex justify-evenly items-start">
+        <footer className="py-7 border-t border-[#DCDCDC] px-6 md:px-0">
+            <div className="container max-w-[1440px] flex flex-wrap gap-4 justify-evenly items-start">
                 {footerLinks.map((link, i) => (
                     <div key={i}>
                         <h4 className="text-darkGray text-[20px] font-extrabold mb-3">{link.title}</h4>

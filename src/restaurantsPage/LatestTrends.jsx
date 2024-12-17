@@ -7,7 +7,7 @@ const LatestTrends = () => {
         <section className="px-6 xl:px-0">
             <div className="container max-w-[1440px] my-24">
                 <h2 className="text-3xl font-extrabold text-[#1e1e1e] mb-6">The latest trends</h2>
-                <div className="w-full grid place-content-between grid-cols-4 gap-6">
+                <div className="w-full grid grid-cols-2 md:grid-cols-4 place-content-between gap-6">
                     {latestCardData.map((card, i) => (
                         <Card key={i} {...card} />
                     ))}

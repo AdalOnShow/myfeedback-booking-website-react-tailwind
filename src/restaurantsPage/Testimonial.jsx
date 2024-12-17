@@ -7,7 +7,7 @@ const Testimonial = () => {
     ));
 
     return (
-        (<div className="w-full h-full py-20">
+        (<div className="w-full h-full py-20 px-6 xl:px-0">
             <div className="container max-w-[1440px]">
                 <h2 className="text-3xl text-darkGray font-extrabold">Recents avtivities</h2>
             </div>

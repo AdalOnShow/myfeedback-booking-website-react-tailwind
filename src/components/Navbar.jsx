@@ -34,14 +34,14 @@ const ResponsiveNavbar = () => {
 
     return (
         <section className="px-6 xl:px-0">
-            <div className="container max-w-[1440px] py-8 flex overflow-x-auto gap-4 scrollbar-hide">
+            <div className="container max-w-[1440px] py-4 md:py-8 flex overflow-x-auto gap-2 md:gap-4 scrollbar-hide">
                 {menuItems.map((item) => (
                     <NavLink
                         to={item.to}
                         key={item.name}
-                        className={`flex flex-col items-center justify-between text-sm md:text-base whitespace-nowrap px-4 py-2 border-b-2 ${activeItem === item.name
+                        className={`flex flex-col items-center justify-between text-sm md:text-base whitespace-nowrap px-2 md:px-4 py-2 border-b-2 ${activeItem === item.name
                             ? "text-primary border-primary"
-                            : "text-[#AFAFAF] hover:text-gray-700 border-transparent"
+                            : "text-[#AFAFAF] hover:text-gray-600 border-transparent"
                             }`}
                         onClick={() => setActiveItem(item.name)}
                     >

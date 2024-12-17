@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container max-w-[1440px] flex justify-between items-center gap-4 pt-[46px] pb-[23px]">
                 {/* logo */}
                 <NavLink to="/">
-                    <img src="/logo.svg" alt="logo" className="max-w-[166px] object-contain" />
+                    <img src="/logo.svg" alt="logo" className="max-w-1/3 md:max-w-[166px] object-contain" />
                 </NavLink>
 
                 {/*  search bar  */}
@@ -28,7 +28,7 @@ const Header = () => {
 
                 {/* button aria   */}
                 <div className="flex-center gap-5">
-                    <CiGlobe className="size-7 text-[#595959]" />
+                    <CiGlobe className="size-7 text-[#595959] hidden md:block" />
                     <Button>MyFeedback for business</Button>
                 </div>
             </div>

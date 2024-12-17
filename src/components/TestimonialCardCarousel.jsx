@@ -82,13 +82,13 @@ export const Carousel = ({
             </div>
             <div className="flex justify-end gap-2 mr-10">
                 <button
-                    className="absolute left-8 top-1/2 transform -translate-y-1/2 carousel-button disabled:hidden"
+                    className="absolute left-4 md:left-8 top-1/2 transform -translate-y-1/2 carousel-button disabled:hidden"
                     onClick={scrollLeft}
                     disabled={!canScrollLeft}>
                     <FaArrowLeft className="h-6 w-6 text-[#232323]" />
                 </button>
                 <button
-                    className="absolute right-8 top-1/2 transform -translate-y-1/2 carousel-button disabled:hidden"
+                    className="absolute right-4 md:right-8 top-1/2 transform -translate-y-1/2 carousel-button disabled:hidden"
                     onClick={scrollRight}
                     disabled={!canScrollRight}>
                     <FaArrowRight className="h-6 w-6 text-[#232323]" />
@@ -100,7 +100,7 @@ export const Carousel = ({
 
 export const Card = ({ userName, userImage, country, stars, date, reviewText1, reviewText2, images, discoverLink }) => {
     return (
-        <div className="w-[480px] bg-[#F8F8F8] rounded-[14px] py-6 px-3 h-full">
+        <div className="w-80 md:w-[400px] xl:w-[480px] bg-[#F8F8F8] rounded-[14px] py-6 px-3 h-full">
             <div className="flex items-center gap-3">
                 <div className="size-[60px] bg-white rounded-full p-4 flex-center">
                     <img src={userImage} alt={userName} />
@@ -127,7 +127,7 @@ export const Card = ({ userName, userImage, country, stars, date, reviewText1, r
 
             <div className="flex justify-start items-center gap-3 my-6">
                 {images.map((image, i) => (
-                    <img key={i} src={`${image}.png`} alt={image} className="size-[120px]" />
+                    <img key={i} src={`${image}.png`} alt={image} className="size-[60px] md:size-[120px]" />
                 ))}
             </div>
 
